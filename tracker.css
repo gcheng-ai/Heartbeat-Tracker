@@ -1,0 +1,43 @@
+
+body {
+    background-image: url("jogging-background.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+h1,h2 {
+    text-align: center;
+    font: 3000px;
+    color: black;
+}
+
+.container{
+    border: 3px solid black;
+    background: white;
+    margin: auto;
+    width: 400px;
+}
+
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: green;
+}
+
+#save-el{
+    font-weight: bold;
+}
